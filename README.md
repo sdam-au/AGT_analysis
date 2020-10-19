@@ -29,7 +29,11 @@ CC-BY-SA 4.0, see attached License.md
 [Describe the provenance of data used in the scripts contained and clarify how it is harvested and what other prerequisites are required to get the scripts working. In case of pure tool attribute any reused scripts to source, etc., license and specify any prerequisites or technical requirements.]
 
 ### Data
-Anything else on data metadata and data used. Link to data repository or explanatory article. 
+After a deduplication on the basis of filename codes (`tlg0086.tlg010` is a filename code for Aristotle's *Ethica Nicomachea*), the dataset as a whole consists from 1,429 documents and contains 34,589,083. However, for many of these documents, we are not able to obtain metadata concerning their dating and provenience, and therefore will be probably ignored in a majority of our analyses. 
+
+Using [TLG metadata for dating](https://raw.githubusercontent.com/cltk/cltk/master/cltk/corpus/greek/tlg/author_date.py), we were able to get some sort of dating for 1,374 documents.
+
+Next to it, we were able to classify 876 as either "christian" or "pagan" provenience. 
 
 ### Software
 1. Software X, minimum version 123
